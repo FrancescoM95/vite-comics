@@ -14,19 +14,19 @@ export default {
                 </div>
                 <div class="col">
                     <img src="../assets/img/buy-comics-merchandise.png" alt="merchandise">
-                    <p>Digital comics</p>
+                    <p>DC merchandise</p>
                 </div>
                 <div class="col">
                     <img src="../assets/img/buy-comics-subscriptions.png" alt="sub">
-                    <p>Digital comics</p>
+                    <p>Subscriptions</p>
                 </div>
                 <div class="col">
                     <img src="../assets/img/buy-comics-shop-locator.png" alt="shop">
-                    <p>Digital comics</p>
+                    <p>comic shop locator</p>
                 </div>
                 <div class="col">
                     <img src="../assets/img/buy-dc-power-visa.svg" alt="power">
-                    <p>Digital comics</p>
+                    <p>DC power visa</p>
                 </div>
 
 
