@@ -15,8 +15,7 @@ export default {
 <style scoped>
 main {
     background-color: black;
-    height: calc(100vh - 500px);
-    line-height: 130px;
+    height: calc(100vh - 590px);
 }
 
 h1 {
