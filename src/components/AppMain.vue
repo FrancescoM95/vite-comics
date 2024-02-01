@@ -12,13 +12,13 @@ export default {
     </main>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
     background-color: black;
     height: calc(100vh - 590px);
-}
 
-h1 {
-    color: #fff;
+    h1 {
+        color: #fff;
+    }
 }
 </style>

@@ -87,9 +87,18 @@ export default {
     </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 footer {
     color: #fff;
+
+    h3 {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    li {
+        cursor: pointer;
+    }
 }
 
 #footer-top {
@@ -99,25 +108,24 @@ footer {
     height: 320px;
     overflow: hidden;
     padding: 30px 0;
-}
 
-
-#footer-top ul {
-    list-style-type: none;
-    font-size: 0.75rem;
-    line-height: 1.1rem;
-    margin-bottom: 15px;
-    color: #7A7B79;
+    ul {
+        list-style-type: none;
+        font-size: 0.75rem;
+        line-height: 1.1rem;
+        margin-bottom: 15px;
+        color: #7A7B79;
+    }
 }
 
 .row {
     display: flex;
     gap: 50px;
-}
 
-.cols-2 {
-    flex-basis: 50%;
-    height: 100%;
+    .cols-2 {
+        flex-basis: 50%;
+        height: 100%;
+    }
 }
 
 #logo-footer {
@@ -125,33 +133,29 @@ footer {
     transform: translate(0, -25%);
 }
 
-h3 {
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-li {
-    cursor: pointer;
-}
-
 #footer-bottom {
     height: 80px;
     line-height: 80px;
     background-color: #303030;
-}
 
-#footer-bottom .row {
-    align-items: center;
+    .row {
+        align-items: center;
+    }
 }
 
 #social {
     display: flex;
     gap: 15px;
     list-style-type: none;
-}
 
-#social img {
-    height: 30px;
+    img {
+        height: 30px;
+    }
+
+    h2 {
+        color: #0282f9;
+        font-size: 1.2rem;
+    }
 }
 
 .d-flex {
@@ -159,11 +163,6 @@ li {
     justify-content: flex-end;
     align-items: center;
     gap: 30px;
-}
-
-h2 {
-    color: #0282f9;
-    font-size: 1.2rem;
 }
 
 button {

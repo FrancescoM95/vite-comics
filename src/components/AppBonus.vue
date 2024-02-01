@@ -36,17 +36,17 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #bonus {
     background-color: #0282f9;
     height: 90px;
-}
 
-.row {
-    height: 90px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    .row {
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
 
 .col {
@@ -56,15 +56,15 @@ export default {
     color: #fff;
     font-size: 0.9rem;
     text-transform: uppercase;
-}
 
-.col>* {
-    cursor: pointer;
-}
+    * {
+        cursor: pointer;
+    }
 
-img {
-    height: 60px;
-    max-width: 60px;
-    display: block;
+    img {
+        height: 60px;
+        max-width: 60px;
+        display: block;
+    }
 }
 </style>

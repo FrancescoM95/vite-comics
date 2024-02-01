@@ -81,7 +81,7 @@ export default {
     </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     height: 100px;
     display: flex;
@@ -99,15 +99,15 @@ ul {
     display: flex;
     gap: 30px;
     height: 100%;
-}
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #1C1C1C;
-    font-weight: 900;
-    padding: 35px 0;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: #1C1C1C;
+        font-weight: 900;
+        padding: 35px 0;
+    }
 }
 
 .active a {
