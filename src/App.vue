@@ -25,6 +25,7 @@ export default {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
 }
 
 img {
