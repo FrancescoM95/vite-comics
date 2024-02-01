@@ -11,14 +11,18 @@ export default {
 </script>
 
 <template>
-  <div class="container">
-    <AppHeader />
-    <AppMain />
-    <AppFooter />
-  </div>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }

@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <header>
+    <header class="container">
         <figure>
             <img src="../assets/img/dc-logo.png" alt="Logo DC" id="logo">
         </figure>
@@ -28,6 +28,7 @@ export default {
 
 <style scoped>
 header {
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +43,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
+    height: 100%;
 }
 
 a {
@@ -50,6 +52,6 @@ a {
     color: #1C1C1C;
     font-size: 0.8rem;
     font-weight: 600;
-    padding: 30px 0;
+    padding: 40px 0;
 }
 </style>
