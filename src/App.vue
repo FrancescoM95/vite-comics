@@ -11,9 +11,24 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
-  <AppFooter />
+  <div class="container">
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </div>
 </template>
 
-<style></style>
+<style>
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+</style>
