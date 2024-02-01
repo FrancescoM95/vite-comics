@@ -1,13 +1,19 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
+
 
 export default {
   name: 'Vite DC Comics',
-  components: {
-
-  }
+  components: { AppHeader, AppMain, AppFooter }
 };
 </script>
 
-<template></template>
+<template>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
+</template>
 
 <style></style>
