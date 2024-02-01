@@ -126,7 +126,6 @@ footer {
 }
 
 h3 {
-    font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 15px;
 }

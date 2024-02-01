@@ -1,6 +1,70 @@
 <script>
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data() {
+        return {
+            navLinks: [
+                {
+                    text: 'Characters',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Comics',
+                    url: '#',
+                    current: true,
+                },
+                {
+                    text: 'Movies',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'TV',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Games',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Collectibles',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Videos',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Fans',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'News',
+                    url: '#',
+                    current: false,
+                },
+                {
+                    text: 'Shop',
+                    url: '#',
+                    current: false,
+                },
+            ]
+        }
+    },
+    methods: {
+        changeActiveItem(index) {
+            // Imposta l'elemento corrente su false per tutti gli elementi
+            this.navLinks.forEach((item, i) => {
+                item.current = i === index;
+            });
+        },
+    }
 }
 </script>
 
@@ -11,16 +75,9 @@ export default {
         </figure>
         <nav>
             <ul>
-                <li><a href="#">characters</a></li>
-                <li><a href="#">comics</a></li>
-                <li><a href="#">movies</a></li>
-                <li><a href="#">tv</a></li>
-                <li><a href="#">games</a></li>
-                <li><a href="#">collectibles</a></li>
-                <li><a href="#">videos</a></li>
-                <li><a href="#">fans</a></li>
-                <li><a href="#">news</a></li>
-                <li><a href="#">shop</a></li>
+                <li v-for="(item, i) in navLinks" :key="i" :class="{ 'active': item.current }" @click="changeActiveItem(i)">
+                    <a :href="item.url">{{ item.text }}</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -49,9 +106,14 @@ ul {
 a {
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #1C1C1C;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 40px 0;
+    font-weight: 900;
+    padding: 35px 0;
+}
+
+.active a {
+    color: #0282f9;
+    border-bottom: 4px solid #0282f9;
 }
 </style>
