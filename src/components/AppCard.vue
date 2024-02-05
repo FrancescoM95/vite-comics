@@ -17,9 +17,9 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    padding: 10px;
+    padding: 15px;
     flex-basis: 15%;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
 
     img {
         display: block;

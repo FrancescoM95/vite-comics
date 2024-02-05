@@ -23,6 +23,7 @@ export default {
 main {
     background-color: black;
     min-height: calc(100vh - 590px);
+    padding-top: 2rem;
 
     h1 {
         color: #fff;
