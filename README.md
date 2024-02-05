@@ -21,3 +21,22 @@ Diamo priorità alla struttura: quando è tutto bello solido, passiamo al Sass!
 
 - Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - Importare il font utilizzando Fontsource.
+
+---
+
+# PARTE 2
+
+Esercizio di oggi: **Vite DC Comics**
+
+nome repo: `vite-comics`
+
+## Descrizione
+
+1. Continuate a lavorare nella stessa repo di ieri e create un nuovo componente che rappresenterà le card dei fumetti.
+1. Utilizzate i dati presenti nel file  che trovate in allegato e passateli al componente Card tramite props.
+1. Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli con Sass.
+
+## Possibili Bonus
+
+- Aggiungere il jumbotron.
+- Organizzare i dati creando un barrel da importare in App.vue
